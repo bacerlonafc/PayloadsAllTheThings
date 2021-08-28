@@ -48,3 +48,25 @@ The script will ask whether you get the handshake or not, insert y and press ent
 ![image](https://user-images.githubusercontent.com/86700132/131206962-3c22884b-1489-4454-906f-a8e4608d816e.png)
 
 
+### 2. Gaining Access
+#### 1st STEP : Password cracking by using Airgeddon 
+Once we receive the network password hash from reconnaissance and scanning, we are going to crack that hash so that we can get the network password without identify the private key. In this case, we use a dictionary password cracking attack. We create a dictionary file that consists of list of phone numbers manually, since we know that the network password is phone number of our neighbor. Then we crack the network password by using the dictionary file.
+
+Open a new terminal and use crush to create a dictionary file.
+
+Command:
+```
+crunch 10 10 0123456789 -t 016%%%%%% -o /root/Desktop/phonenumber.txt
+```
+![image](https://user-images.githubusercontent.com/86700132/131207133-f433390d-7449-4a58-9f45-0337156cbe1b.png)
+
+
+Come back to airgeddon terminal window. From the main menu choose option 6, which is offline WPA/WPA2 decrypt menu. 
+
+
+![image](https://user-images.githubusercontent.com/86700132/131207141-8246a62b-edd1-467d-b599-39f6cece2dfd.png)
+
+
+
+
+
