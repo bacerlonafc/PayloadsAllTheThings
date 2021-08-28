@@ -226,6 +226,8 @@ Now our work is done, we just wait for the victim to run the notepad++ applicati
 We will wait for the victim to run the notepad++ application. If the victim opens it, it will ask victim to update the notepad++. Then if the victim clicks yes for 2 times, the malicious code injected in notepadplus module will be executed and makes targeted machine to listen to kali linux meterpreter shell.
 
 Let's jump to the targeted machine interface. When victim open the notepad++ executable. The executable will ask victim to update their notepad++. 
+
+
 ![image](https://user-images.githubusercontent.com/86700132/131207451-a3d4c6ae-c243-4351-9090-161d28edfc85.png)
 
 The victim click yes button.
