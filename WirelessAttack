@@ -1,7 +1,0 @@
-#Wireless Hacking
-Wireless Hacking will be more efficient if we know the attack flow of the target. In this project, the wireless hacking tools that will be using are Airgeddon and Evilgrade.
-
-Airgeddon is written in bash and multi-use for Linux system to audit wireless networks and developed by V1s1t0rsh3r3. Evilgrade is a modular framework that allows the user to take advantage of poor upgrade implementations by injecting fake updates.
-
-##Attacking Procedures
-###1. Reconnaissance and Scanning
