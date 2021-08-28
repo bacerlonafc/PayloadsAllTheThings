@@ -1,12 +1,19 @@
-language: node_js
-node_js:
-  - lts/*
-
-before_install:
-  - docker build -t sanie/payloadThings -f Dockerfile.dev .
-
-install:
-  - npm install
-  
-script:
-  - docker run sanie/payloadThings npm run test -- --coverage
+{
+  "language": "node_js",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "node_js": [
+    "lts/*"
+  ],
+  "before_install": [
+    "docker build -t sanie/payloadThings -f Dockerfile.dev ."
+  ],
+  "install": [
+    "npm install"
+  ],
+  "script": [
+    "docker run sanie/payloadThings npm run test -- --coverage"
+  ]
+}
